@@ -1,0 +1,85 @@
+[Mon Feb 19 13:57:13.745341 2024] [mpm_winnt:notice] [pid 9388:tid 436] AH00455: Apache/2.4.58 (Win64) PHP/8.3.3 configured -- resuming normal operations
+[Mon Feb 19 13:57:13.745341 2024] [mpm_winnt:notice] [pid 9388:tid 436] AH00456: Apache Lounge VS17 Server built: Jan 30 2024 19:01:23
+[Mon Feb 19 13:57:13.745341 2024] [core:notice] [pid 9388:tid 436] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Feb 19 13:57:13.745341 2024] [mpm_winnt:notice] [pid 9388:tid 436] AH00418: Parent: Created child process 1796
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 1796:tid 428] AH00354: Child: Starting 64 worker threads.
+[Mon Feb 19 14:02:56.468092 2024] [mpm_winnt:notice] [pid 9388:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Feb 19 14:02:58.500460 2024] [mpm_winnt:notice] [pid 1796:tid 428] AH00364: Child: All worker threads have exited.
+[Mon Feb 19 14:02:58.525905 2024] [mpm_winnt:notice] [pid 9388:tid 436] AH00430: Parent: Child process 1796 exited successfully.
+[Mon Feb 19 14:13:53.690566 2024] [mpm_winnt:notice] [pid 14348:tid 424] AH00455: Apache/2.4.58 (Win64) PHP/8.3.3 configured -- resuming normal operations
+[Mon Feb 19 14:13:53.690566 2024] [mpm_winnt:notice] [pid 14348:tid 424] AH00456: Apache Lounge VS17 Server built: Jan 30 2024 19:01:23
+[Mon Feb 19 14:13:53.690566 2024] [core:notice] [pid 14348:tid 424] AH00094: Command line: '.\\httpd.exe -d C:/Apache24'
+[Mon Feb 19 14:13:53.695570 2024] [mpm_winnt:notice] [pid 14348:tid 424] AH00418: Parent: Created child process 17452
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 17452:tid 428] AH00354: Child: Starting 64 worker threads.
+[Mon Feb 19 14:14:59.190511 2024] [mpm_winnt:notice] [pid 14348:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Feb 19 14:15:33.531837 2024] [mpm_winnt:notice] [pid 17452:tid 428] AH00362: Child: Waiting 30 more seconds for 1 worker threads to finish.
+[Mon Feb 19 14:15:53.058923 2024] [mpm_winnt:notice] [pid 17452:tid 428] AH00364: Child: All worker threads have exited.
+[Mon Feb 19 14:32:52.303417 2024] [core:warn] [pid 11188:tid 432] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 19 14:32:52.320859 2024] [mpm_winnt:notice] [pid 11188:tid 432] AH00455: Apache/2.4.58 (Win64) PHP/8.3.3 configured -- resuming normal operations
+[Mon Feb 19 14:32:52.320859 2024] [mpm_winnt:notice] [pid 11188:tid 432] AH00456: Apache Lounge VS17 Server built: Jan 30 2024 19:01:23
+[Mon Feb 19 14:32:52.320859 2024] [core:notice] [pid 11188:tid 432] AH00094: Command line: '.\\httpd.exe -d C:/Apache24'
+[Mon Feb 19 14:32:52.322822 2024] [mpm_winnt:notice] [pid 11188:tid 432] AH00418: Parent: Created child process 8876
+[Mon Feb 19 14:32:52.733750 2024] [mpm_winnt:notice] [pid 8876:tid 428] AH00354: Child: Starting 64 worker threads.
+[Mon Feb 19 14:43:42.501472 2024] [php:error] [pid 8876:tid 1092] [client ::1:51544] PHP Parse error:  syntax error, unexpected token "for" in C:\\localhost\\display.php on line 8, referer: http://localhost/
+[Mon Feb 19 14:54:08.667730 2024] [php:error] [pid 8876:tid 1092] [client ::1:52981] PHP Parse error:  syntax error, unexpected integer "14", expecting "," or ";" in C:\\localhost\\display.php on line 10, referer: http://localhost/
+[Mon Feb 19 15:00:52.296330 2024] [php:error] [pid 8876:tid 1092] [client ::1:53752] PHP Parse error:  syntax error, unexpected token "<", expecting ";" in C:\\localhost\\display.php on line 9, referer: http://localhost/
+[Mon Feb 19 15:01:44.181206 2024] [php:error] [pid 8876:tid 1084] [client ::1:53753] PHP Fatal error:  Uncaught TypeError: strlen(): Argument #1 ($string) must be of type string, array given in C:\\localhost\\display.php:9\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\display.php on line 9, referer: http://localhost/
+[Mon Feb 19 15:02:08.076131 2024] [php:warn] [pid 8876:tid 1092] [client ::1:53839] PHP Warning:  Undefined variable $symb in C:\\localhost\\display.php on line 11, referer: http://localhost/
+[Mon Feb 19 15:02:08.076712 2024] [php:warn] [pid 8876:tid 1092] [client ::1:53839] PHP Warning:  Undefined variable $symb in C:\\localhost\\display.php on line 11, referer: http://localhost/
+[Mon Feb 19 15:02:08.076712 2024] [php:warn] [pid 8876:tid 1092] [client ::1:53839] PHP Warning:  Undefined variable $symb in C:\\localhost\\display.php on line 11, referer: http://localhost/
+[Mon Feb 19 15:02:08.076712 2024] [php:warn] [pid 8876:tid 1092] [client ::1:53839] PHP Warning:  Undefined variable $symb in C:\\localhost\\display.php on line 11, referer: http://localhost/
+[Mon Feb 19 15:02:08.076712 2024] [php:warn] [pid 8876:tid 1092] [client ::1:53839] PHP Warning:  Undefined variable $symb in C:\\localhost\\display.php on line 11, referer: http://localhost/
+[Mon Feb 19 15:02:08.076712 2024] [php:warn] [pid 8876:tid 1092] [client ::1:53839] PHP Warning:  Undefined variable $symb in C:\\localhost\\display.php on line 11, referer: http://localhost/
+[Mon Feb 19 15:02:08.076712 2024] [php:warn] [pid 8876:tid 1092] [client ::1:53839] PHP Warning:  Undefined variable $symb in C:\\localhost\\display.php on line 11, referer: http://localhost/
+[Mon Feb 19 15:02:08.076712 2024] [php:warn] [pid 8876:tid 1092] [client ::1:53839] PHP Warning:  Undefined variable $symb in C:\\localhost\\display.php on line 11, referer: http://localhost/
+[Mon Feb 19 15:02:08.076712 2024] [php:warn] [pid 8876:tid 1092] [client ::1:53839] PHP Warning:  Undefined variable $symb in C:\\localhost\\display.php on line 11, referer: http://localhost/
+[Mon Feb 19 15:03:55.944267 2024] [php:error] [pid 8876:tid 1084] [client ::1:54182] PHP Parse error:  syntax error, unexpected token "echo" in C:\\localhost\\display.php on line 8, referer: http://localhost/
+[Mon Feb 19 15:20:09.335672 2024] [php:warn] [pid 8876:tid 1092] [client ::1:56146] PHP Warning:  Array to string conversion in C:\\localhost\\display.php on line 4, referer: http://localhost/
+[Mon Feb 19 15:20:26.413646 2024] [php:warn] [pid 8876:tid 1084] [client ::1:56147] PHP Warning:  Array to string conversion in C:\\localhost\\display.php on line 4, referer: http://localhost/
+[Mon Feb 19 15:24:30.826780 2024] [php:error] [pid 8876:tid 1084] [client ::1:56797] PHP Parse error:  syntax error, unexpected token "for", expecting "," or ";" in C:\\localhost\\display.php on line 15, referer: http://localhost/
+[Mon Feb 19 15:29:11.120087 2024] [php:warn] [pid 8876:tid 1084] [client ::1:57483] PHP Warning:  Undefined array key 7 in C:\\localhost\\display.php on line 17, referer: http://localhost/
+[Mon Feb 19 15:29:11.120087 2024] [php:warn] [pid 8876:tid 1084] [client ::1:57483] PHP Warning:  Undefined array key 8 in C:\\localhost\\display.php on line 17, referer: http://localhost/
+[Mon Feb 19 15:30:42.454929 2024] [php:warn] [pid 8876:tid 1092] [client ::1:57589] PHP Warning:  Undefined array key 7 in C:\\localhost\\display.php on line 17, referer: http://localhost/
+[Mon Feb 19 15:38:24.255561 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.255561 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.255561 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 27, referer: http://localhost/
+[Mon Feb 19 15:38:24.255561 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.255561 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.255561 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 27, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 27, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 27, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 27, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 27, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 27, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 27, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:24.256560 2024] [php:warn] [pid 8876:tid 1092] [client ::1:58301] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 27, referer: http://localhost/
+[Mon Feb 19 15:38:37.980213 2024] [php:warn] [pid 8876:tid 1084] [client ::1:58302] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:37.980213 2024] [php:warn] [pid 8876:tid 1084] [client ::1:58302] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 26, referer: http://localhost/
+[Mon Feb 19 15:38:37.980213 2024] [php:warn] [pid 8876:tid 1084] [client ::1:58302] PHP Warning:  Undefined variable $color in C:\\localhost\\display.php on line 27, referer: http://localhost/
+[Mon Feb 19 15:47:18.077704 2024] [php:error] [pid 8876:tid 1084] [client ::1:59420] PHP Fatal error:  Uncaught Error: Call to undefined function mb_internal_encoding() in C:\\localhost\\display.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\display.php on line 2, referer: http://localhost/
+[Mon Feb 19 15:47:32.580087 2024] [php:error] [pid 8876:tid 1092] [client ::1:59421] PHP Fatal error:  Uncaught Error: Call to undefined function mb_internal_encoding() in C:\\localhost\\display.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\display.php on line 2, referer: http://localhost/
+[Mon Feb 19 16:04:36.171883 2024] [php:error] [pid 8876:tid 1084] [client ::1:62140] PHP Parse error:  syntax error, unexpected token "for", expecting "," or ";" in C:\\localhost\\display.php on line 14, referer: http://localhost/
+[Mon Feb 19 16:05:51.531358 2024] [php:error] [pid 8876:tid 1092] [client ::1:62469] PHP Parse error:  syntax error, unexpected token "for", expecting "," or ";" in C:\\localhost\\display.php on line 8, referer: http://localhost/
+[Mon Feb 19 16:10:22.486648 2024] [php:error] [pid 8876:tid 1084] [client ::1:63227] PHP Parse error:  syntax error, unexpected identifier "color", expecting "," or ";" in C:\\localhost\\display.php on line 22, referer: http://localhost/
+[Mon Feb 19 16:18:36.586783 2024] [php:warn] [pid 8876:tid 1092] [client ::1:64270] PHP Warning:  Undefined array key "row" in C:\\localhost\\display.php on line 28, referer: http://localhost/
+[Mon Feb 19 16:19:04.389237 2024] [php:warn] [pid 8876:tid 1084] [client ::1:64291] PHP Warning:  Undefined array key "row" in C:\\localhost\\display.php on line 28, referer: http://localhost/
+[Mon Feb 19 16:19:14.233775 2024] [php:warn] [pid 8876:tid 1092] [client ::1:64324] PHP Warning:  Undefined array key "row" in C:\\localhost\\display.php on line 28, referer: http://localhost/
+[Mon Feb 19 16:20:04.746860 2024] [php:warn] [pid 8876:tid 1084] [client ::1:64338] PHP Warning:  Undefined array key "row" in C:\\localhost\\display.php on line 28, referer: http://localhost/
+[Mon Feb 19 16:20:21.669989 2024] [php:warn] [pid 8876:tid 1092] [client ::1:64397] PHP Warning:  Undefined array key "row" in C:\\localhost\\display.php on line 28, referer: http://localhost/
+[Mon Feb 19 16:46:14.636597 2024] [php:error] [pid 8876:tid 1092] [client ::1:50954] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\\localhost\\display.php:8\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\display.php on line 8, referer: http://localhost/
